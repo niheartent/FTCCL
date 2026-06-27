@@ -1,0 +1,13 @@
+/home/ubuntu/sdr/fccl/exp/survivor_collective_ring/src/survivor_collective_after_kill.cu: In function ‘int main(int, char**)’:
+/home/ubuntu/sdr/fccl/exp/survivor_collective_ring/src/survivor_collective_after_kill.cu:457:13: error: ‘ncclCommPrepareSurvivorTopo’ was not declared in this scope
+  457 |   NCCLCHECK(ncclCommPrepareSurvivorTopo(parent, survivor_count, survivors));
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/sdr/fccl/exp/survivor_collective_ring/src/survivor_collective_after_kill.cu:37:23: note: in definition of macro ‘NCCLCHECK’
+   37 |     ncclResult_t r = (cmd);                                                    \
+      |                       ^~~
+/home/ubuntu/sdr/fccl/exp/survivor_collective_ring/src/survivor_collective_after_kill.cu:469:13: error: ‘ncclCommActivateSurvivorTopo’ was not declared in this scope
+  469 |   NCCLCHECK(ncclCommActivateSurvivorTopo(parent, survivor_count, survivors));
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/sdr/fccl/exp/survivor_collective_ring/src/survivor_collective_after_kill.cu:37:23: note: in definition of macro ‘NCCLCHECK’
+   37 |     ncclResult_t r = (cmd);                                                    \
+      |                       ^~~

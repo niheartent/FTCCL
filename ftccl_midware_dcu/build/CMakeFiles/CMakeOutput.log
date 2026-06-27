@@ -1,0 +1,530 @@
+The system is: Linux - 5.10.134-17.1.3.sga8.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /public/software/compiler/dtk-26.04/hip/bin/hipcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/3.24.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_414b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_414b0.dir/build.make CMakeFiles/cmTC_414b0.dir/build
+gmake[1]: Entering directory '/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o
+/public/software/compiler/dtk-26.04/hip/bin/hipcc   -v -MD -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -c /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang version 17.0.0 (http://112.11.119.99:55080/dcutoolkit/driverruntime/llvm-project.git ff5bf917a679c83afe927af051a20b86fef7b07d)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /public/software/compiler/dtk-26.04/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found HIP installation: /public/software/compiler/dtk-26.04, version 6.3.26113
+ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -mcode-object-version=4 -mllvm --amdhsa-code-object-version=4 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_906.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_400.bc -target-cpu gfx906 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx906-766257.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers
+ /public/software/compiler/dtk-26.04/hsa/include
+ /public/software/compiler/dtk-26.04/hip/include
+ /public/software/compiler/dtk-26.04/include
+ /public/software/compiler/dtk-26.04/llvm/include
+ /opt/hyhal/include
+ /public/software/compiler/dtk-26.04/opencl/include
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward
+ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx906 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx906-8f7239.out /tmp/CMakeCXXCompilerABI-gfx906-766257.o --no-whole-archive
+ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_926.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx926 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx926-5d3521.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers
+ /public/software/compiler/dtk-26.04/hsa/include
+ /public/software/compiler/dtk-26.04/hip/include
+ /public/software/compiler/dtk-26.04/include
+ /public/software/compiler/dtk-26.04/llvm/include
+ /opt/hyhal/include
+ /public/software/compiler/dtk-26.04/opencl/include
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward
+ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx926 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx926-bc87e3.out /tmp/CMakeCXXCompilerABI-gfx926-5d3521.o --no-whole-archive
+ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_928.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx928 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx928-3340fc.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers
+ /public/software/compiler/dtk-26.04/hsa/include
+ /public/software/compiler/dtk-26.04/hip/include
+ /public/software/compiler/dtk-26.04/include
+ /public/software/compiler/dtk-26.04/llvm/include
+ /opt/hyhal/include
+ /public/software/compiler/dtk-26.04/opencl/include
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward
+ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx928 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx928-362a87.out /tmp/CMakeCXXCompilerABI-gfx928-3340fc.o --no-whole-archive
+ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_936.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx936 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx936-10782a.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers
+ /public/software/compiler/dtk-26.04/hsa/include
+ /public/software/compiler/dtk-26.04/hip/include
+ /public/software/compiler/dtk-26.04/include
+ /public/software/compiler/dtk-26.04/llvm/include
+ /opt/hyhal/include
+ /public/software/compiler/dtk-26.04/opencl/include
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward
+ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx936 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx936-1774d9.out /tmp/CMakeCXXCompilerABI-gfx936-10782a.o --no-whole-archive
+ "/public/software/compiler/dtk-26.04/llvm/bin/clang-offload-bundler" -type=o -bundle-align=4096 -targets=host-x86_64-unknown-linux,hipv4-amdgcn-amd-amdhsa--gfx906,hipv4-amdgcn-amd-amdhsa--gfx926,hipv4-amdgcn-amd-amdhsa--gfx928,hipv4-amdgcn-amd-amdhsa--gfx936 -input=/dev/null -input=/tmp/CMakeCXXCompilerABI-gfx906-8f7239.out -input=/tmp/CMakeCXXCompilerABI-gfx926-bc87e3.out -input=/tmp/CMakeCXXCompilerABI-gfx928-362a87.out -input=/tmp/CMakeCXXCompilerABI-gfx936-1774d9.out -output=/tmp/CMakeCXXCompilerABI-686ef4.hipfb -verbose
+ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple x86_64-unknown-linux-gnu -aux-triple amdgcn-amd-amdhsa -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -v -fcoverage-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -ftrivial-auto-var-init=zero -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -fcuda-include-gpubinary /tmp/CMakeCXXCompilerABI-686ef4.hipfb -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..
+ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers
+ /public/software/compiler/dtk-26.04/hsa/include
+ /public/software/compiler/dtk-26.04/hip/include
+ /public/software/compiler/dtk-26.04/include
+ /public/software/compiler/dtk-26.04/llvm/include
+ /opt/hyhal/include
+ /public/software/compiler/dtk-26.04/opencl/include
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward
+ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include
+ /usr/local/include
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_414b0
+/public/software/compiler/cmake-3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414b0.dir/link.txt --verbose=1
+/public/software/compiler/dtk-26.04/hip/bin/hipcc  -v CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_414b0 
+clang version 17.0.0 (http://112.11.119.99:55080/dcutoolkit/driverruntime/llvm-project.git ff5bf917a679c83afe927af051a20b86fef7b07d)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /public/software/compiler/dtk-26.04/llvm/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found HIP installation: /public/software/compiler/dtk-26.04, version 6.3.26113
+ "/public/software/compiler/dtk-26.04/llvm/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_414b0 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/public/software/compiler/dtk-26.04/hip/lib -L/public/software/compiler/dtk-26.04/lib -L/public/software/compiler/dtk-26.04/llvm/bin/../lib/clang/17.0.0/lib/linux -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/public/software/app/rccl/shca_rdma_plugins/v8/lib -L/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib -L/public/software/compiler/dtk-26.04/opencl/lib -lpthread -lm -lrt CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o --enable-new-dtags -rpath=/public/software/compiler/dtk-26.04/hip/lib:/public/software/compiler/dtk-26.04/lib -lamdhip64 -lclang_rt.builtins-x86_64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+    add: [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+    add: [/public/software/compiler/dtk-26.04/hsa/include]
+    add: [/public/software/compiler/dtk-26.04/hip/include]
+    add: [/public/software/compiler/dtk-26.04/include]
+    add: [/public/software/compiler/dtk-26.04/llvm/include]
+    add: [/opt/hyhal/include]
+    add: [/public/software/compiler/dtk-26.04/opencl/include]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+    add: [/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..] ==> [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0]
+  collapse include dir [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers] ==> [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  collapse include dir [/public/software/compiler/dtk-26.04/hsa/include] ==> [/public/software/compiler/dtk-26.04/hsa/include]
+  collapse include dir [/public/software/compiler/dtk-26.04/hip/include] ==> [/public/software/compiler/dtk-26.04/hip/include]
+  collapse include dir [/public/software/compiler/dtk-26.04/include] ==> [/public/software/compiler/dtk-26.04/include]
+  collapse include dir [/public/software/compiler/dtk-26.04/llvm/include] ==> [/public/software/compiler/dtk-26.04/llvm/include]
+  collapse include dir [/opt/hyhal/include] ==> [/opt/hyhal/include]
+  collapse include dir [/public/software/compiler/dtk-26.04/opencl/include] ==> [/public/software/compiler/dtk-26.04/opencl/include]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8] ==> [/usr/include/c++/8]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux] ==> [/usr/include/c++/8/x86_64-redhat-linux]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+  collapse include dir [/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include] ==> [/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0;/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers;/public/software/compiler/dtk-26.04/hsa/include;/public/software/compiler/dtk-26.04/hip/include;/public/software/compiler/dtk-26.04/include;/public/software/compiler/dtk-26.04/llvm/include;/opt/hyhal/include;/public/software/compiler/dtk-26.04/opencl/include;/usr/include/c++/8;/usr/include/c++/8/x86_64-redhat-linux;/usr/include/c++/8/backward;/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_414b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_414b0.dir/build.make CMakeFiles/cmTC_414b0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/public/software/compiler/dtk-26.04/hip/bin/hipcc   -v -MD -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -c /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 17.0.0 (http://112.11.119.99:55080/dcutoolkit/driverruntime/llvm-project.git ff5bf917a679c83afe927af051a20b86fef7b07d)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /public/software/compiler/dtk-26.04/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found HIP installation: /public/software/compiler/dtk-26.04  version 6.3.26113]
+  ignore line: [ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -mcode-object-version=4 -mllvm --amdhsa-code-object-version=4 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_906.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_400.bc -target-cpu gfx906 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx906-766257.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  ignore line: [ /public/software/compiler/dtk-26.04/hsa/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/hip/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/include]
+  ignore line: [ /opt/hyhal/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/opencl/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+  ignore line: [ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx906 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx906-8f7239.out /tmp/CMakeCXXCompilerABI-gfx906-766257.o --no-whole-archive]
+  ignore line: [ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_926.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx926 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx926-5d3521.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  ignore line: [ /public/software/compiler/dtk-26.04/hsa/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/hip/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/include]
+  ignore line: [ /opt/hyhal/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/opencl/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+  ignore line: [ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx926 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx926-bc87e3.out /tmp/CMakeCXXCompilerABI-gfx926-5d3521.o --no-whole-archive]
+  ignore line: [ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_928.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx928 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx928-3340fc.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  ignore line: [ /public/software/compiler/dtk-26.04/hsa/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/hip/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/include]
+  ignore line: [ /opt/hyhal/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/opencl/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+  ignore line: [ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx928 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx928-362a87.out /tmp/CMakeCXXCompilerABI-gfx928-3340fc.o --no-whole-archive]
+  ignore line: [ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple amdgcn-amd-amdhsa -aux-triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -aux-target-cpu x86-64 -fcuda-is-device -mllvm -amdgpu-internalize-symbols -fcuda-allow-variadic-functions -fvisibility=hidden -fapply-global-visibility-to-externs -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/hip.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ocml.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/ockl.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_daz_opt_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_unsafe_math_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_finite_only_off.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_correctly_rounded_sqrt_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_wavefrontsize64_on.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_isa_version_936.bc -mlink-builtin-bitcode /public/software/compiler/dtk-26.04/amdgcn/bitcode/oclc_abi_version_500.bc -target-cpu gfx936 -target-feature +sramecc -debugger-tuning=gdb -v -v -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -c-isystem /public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fno-autolink -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /tmp/CMakeCXXCompilerABI-gfx936-10782a.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/public/software/compiler/dtk-26.04/llvm/include/gpu-none-llvm"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  ignore line: [ /public/software/compiler/dtk-26.04/hsa/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/hip/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/include]
+  ignore line: [ /opt/hyhal/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/opencl/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+  ignore line: [ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/public/software/compiler/dtk-26.04/llvm/bin/lld" -flavor gnu -m elf64_amdgpu --no-undefined -shared -plugin-opt=-amdgpu-internalize-symbols -plugin-opt=mcpu=gfx936 -plugin-opt=O3 --lto-CGO3 --lto-partitions=32 -plugin-opt=-mattr=+sramecc -plugin-opt=-amdgpu-early-inline-all=true -plugin-opt=-amdgpu-function-calls=false --whole-archive -o /tmp/CMakeCXXCompilerABI-gfx936-1774d9.out /tmp/CMakeCXXCompilerABI-gfx936-10782a.o --no-whole-archive]
+  ignore line: [ "/public/software/compiler/dtk-26.04/llvm/bin/clang-offload-bundler" -type=o -bundle-align=4096 -targets=host-x86_64-unknown-linux hipv4-amdgcn-amd-amdhsa--gfx906 hipv4-amdgcn-amd-amdhsa--gfx926 hipv4-amdgcn-amd-amdhsa--gfx928 hipv4-amdgcn-amd-amdhsa--gfx936 -input=/dev/null -input=/tmp/CMakeCXXCompilerABI-gfx906-8f7239.out -input=/tmp/CMakeCXXCompilerABI-gfx926-bc87e3.out -input=/tmp/CMakeCXXCompilerABI-gfx928-362a87.out -input=/tmp/CMakeCXXCompilerABI-gfx936-1774d9.out -output=/tmp/CMakeCXXCompilerABI-686ef4.hipfb -verbose]
+  ignore line: [ "/public/software/compiler/dtk-26.04/dcc/bin/dcc" -cc1 -triple x86_64-unknown-linux-gnu -aux-triple amdgcn-amd-amdhsa -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -v -fcoverage-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -resource-dir /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0 -dependency-file CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include/cuda_wrappers -idirafter /public/software/compiler/dtk-26.04/include -include __clang_hip_runtime_wrapper.h -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/.. -isystem /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers -isystem /public/software/compiler/dtk-26.04/hsa/include -isystem /public/software/compiler/dtk-26.04/hip/include -c-isystem /public/software/compiler/dtk-26.04/include -c-isystem /public/software/compiler/dtk-26.04/llvm/include -c-isystem /opt/hyhal/include -c-isystem /public/software/compiler/dtk-26.04/opencl/include -c-isystem /opt/gridview/slurm/include -c-isystem /opt/gridview/munge/include -cxx-isystem /public/software/compiler/dtk-26.04/include -cxx-isystem /public/software/compiler/dtk-26.04/llvm/include -cxx-isystem /opt/hyhal/include -cxx-isystem /public/software/compiler/dtk-26.04/opencl/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/CMakeTmp -ferror-limit 19 -ftrivial-auto-var-init=zero -fhip-new-launch-api -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -mllvm -amdgpu-early-inline-all=true -mllvm -amdgpu-function-calls=false -fcuda-include-gpubinary /tmp/CMakeCXXCompilerABI-686ef4.hipfb -cuid=c55de931dd6a9c6c -fcuda-allow-variadic-functions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -x hip /public/software/compiler/cmake-3.24.1/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/public/software/compiler/dtk-26.04/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/..]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/include/cuda_wrappers]
+  ignore line: [ /public/software/compiler/dtk-26.04/hsa/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/hip/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/llvm/include]
+  ignore line: [ /opt/hyhal/include]
+  ignore line: [ /public/software/compiler/dtk-26.04/opencl/include]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward]
+  ignore line: [ /public/software/compiler/dtk-26.04/dcc/lib/clang/17.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_414b0]
+  ignore line: [/public/software/compiler/cmake-3.24.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414b0.dir/link.txt --verbose=1]
+  ignore line: [/public/software/compiler/dtk-26.04/hip/bin/hipcc  -v CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_414b0 ]
+  ignore line: [clang version 17.0.0 (http://112.11.119.99:55080/dcutoolkit/driverruntime/llvm-project.git ff5bf917a679c83afe927af051a20b86fef7b07d)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /public/software/compiler/dtk-26.04/llvm/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/8]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found HIP installation: /public/software/compiler/dtk-26.04  version 6.3.26113]
+  link line: [ "/public/software/compiler/dtk-26.04/llvm/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_414b0 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/public/software/compiler/dtk-26.04/hip/lib -L/public/software/compiler/dtk-26.04/lib -L/public/software/compiler/dtk-26.04/llvm/bin/../lib/clang/17.0.0/lib/linux -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/public/software/app/rccl/shca_rdma_plugins/v8/lib -L/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib -L/public/software/compiler/dtk-26.04/opencl/lib -lpthread -lm -lrt CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o --enable-new-dtags -rpath=/public/software/compiler/dtk-26.04/hip/lib:/public/software/compiler/dtk-26.04/lib -lamdhip64 -lclang_rt.builtins-x86_64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [/public/software/compiler/dtk-26.04/llvm/bin/ld.lld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_414b0] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [-L/public/software/compiler/dtk-26.04/hip/lib] ==> dir [/public/software/compiler/dtk-26.04/hip/lib]
+    arg [-L/public/software/compiler/dtk-26.04/lib] ==> dir [/public/software/compiler/dtk-26.04/lib]
+    arg [-L/public/software/compiler/dtk-26.04/llvm/bin/../lib/clang/17.0.0/lib/linux] ==> dir [/public/software/compiler/dtk-26.04/llvm/bin/../lib/clang/17.0.0/lib/linux]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-L/public/software/app/rccl/shca_rdma_plugins/v8/lib] ==> dir [/public/software/app/rccl/shca_rdma_plugins/v8/lib]
+    arg [-L/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib] ==> dir [/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib]
+    arg [-L/public/software/compiler/dtk-26.04/opencl/lib] ==> dir [/public/software/compiler/dtk-26.04/opencl/lib]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lm] ==> lib [m]
+    arg [-lrt] ==> lib [rt]
+    arg [CMakeFiles/cmTC_414b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-rpath=/public/software/compiler/dtk-26.04/hip/lib:/public/software/compiler/dtk-26.04/lib] ==> ignore
+    arg [-lamdhip64] ==> lib [amdhip64]
+    arg [-lclang_rt.builtins-x86_64] ==> lib [clang_rt.builtins-x86_64]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/public/software/compiler/dtk-26.04/hip/lib] ==> [/public/software/compiler/dtk-26.04/hip/lib]
+  collapse library dir [/public/software/compiler/dtk-26.04/lib] ==> [/public/software/compiler/dtk-26.04/lib]
+  collapse library dir [/public/software/compiler/dtk-26.04/llvm/bin/../lib/clang/17.0.0/lib/linux] ==> [/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/lib/linux]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/public/software/app/rccl/shca_rdma_plugins/v8/lib] ==> [/public/software/app/rccl/shca_rdma_plugins/v8/lib]
+  collapse library dir [/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib] ==> [/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib]
+  collapse library dir [/public/software/compiler/dtk-26.04/opencl/lib] ==> [/public/software/compiler/dtk-26.04/opencl/lib]
+  implicit libs: [pthread;m;rt;amdhip64;clang_rt.builtins-x86_64;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/public/software/compiler/dtk-26.04/hip/lib;/public/software/compiler/dtk-26.04/lib;/public/software/compiler/dtk-26.04/llvm/lib/clang/17.0.0/lib/linux;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/lib;/usr/lib;/public/software/app/rccl/shca_rdma_plugins/v8/lib;/public/software/mpi/hpcx/2.18.0/gcc-8.5.0/shca/lib;/public/software/compiler/dtk-26.04/opencl/lib]
+  implicit fwks: []
+
+

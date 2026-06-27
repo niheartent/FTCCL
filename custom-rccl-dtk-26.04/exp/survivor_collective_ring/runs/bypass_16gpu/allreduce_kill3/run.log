@@ -1,0 +1,158 @@
+RCCL version : 2.22.3-master:07a3100
+HIP version  : 6.3.26113-6699a1f0
+ROCm version : 6.3.3.0-0-c1d64df
+Hostname     : h15r3n15
+Librccl path : /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/librccl.so.1
+PARENT_SETUP rank=6 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=0 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=2 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=3 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=5 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=4 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=7 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=1 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=13 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=9 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=15 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=11 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=14 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=10 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=8 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+PARENT_SETUP rank=12 nranks=16 collective=allreduce mode=bypass kill_rank=3 root_rank=0
+FAILED_RANK_SIGKILL rank=3 before_prepare=1
+SURVIVOR_NATIVE_PREPARE rank=13 collective=allreduce survivor_index=12 prev=12 next=14 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=12 collective=allreduce survivor_index=11 prev=11 next=13 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=10 collective=allreduce survivor_index=9 prev=9 next=11 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=11 collective=allreduce survivor_index=10 prev=10 next=12 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=13 collective=allreduce survivor_index=12 prev=12 next=14 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=12 collective=allreduce survivor_index=11 prev=11 next=13 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=5 collective=allreduce survivor_index=4 prev=4 next=6 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=4 collective=allreduce survivor_index=3 prev=2 next=5 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=2 collective=allreduce survivor_index=2 prev=1 next=4 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=10 collective=allreduce survivor_index=9 prev=9 next=11 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=11 collective=allreduce survivor_index=10 prev=10 next=12 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=5 collective=allreduce survivor_index=4 prev=4 next=6 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=4 collective=allreduce survivor_index=3 prev=2 next=5 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=2 collective=allreduce survivor_index=2 prev=1 next=4 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=6 collective=allreduce survivor_index=5 prev=5 next=7 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=1 collective=allreduce survivor_index=1 prev=0 next=2 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=7 collective=allreduce survivor_index=6 prev=6 next=8 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=9 collective=allreduce survivor_index=8 prev=8 next=10 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=8 collective=allreduce survivor_index=7 prev=7 next=9 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=0 collective=allreduce survivor_index=0 prev=15 next=1 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=15 collective=allreduce survivor_index=14 prev=14 next=0 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=14 collective=allreduce survivor_index=13 prev=13 next=15 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=6 collective=allreduce survivor_index=5 prev=5 next=7 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=1 collective=allreduce survivor_index=1 prev=0 next=2 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=9 collective=allreduce survivor_index=8 prev=8 next=10 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=7 collective=allreduce survivor_index=6 prev=6 next=8 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=8 collective=allreduce survivor_index=7 prev=7 next=9 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=0 collective=allreduce survivor_index=0 prev=15 next=1 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=15 collective=allreduce survivor_index=14 prev=14 next=0 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=14 collective=allreduce survivor_index=13 prev=13 next=15 survivor_count=15 root_parent=0 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_DONE rank=4 collective=allreduce local_result=0 prev=2 next=5 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=3
+SURVIVOR_NATIVE_DONE rank=10 collective=allreduce local_result=0 prev=9 next=11 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=9
+SURVIVOR_NATIVE_DONE rank=13 collective=allreduce local_result=0 prev=12 next=14 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=12
+SURVIVOR_NATIVE_DONE rank=8 collective=allreduce local_result=0 prev=7 next=9 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=7
+SURVIVOR_NATIVE_DONE rank=15 collective=allreduce local_result=0 prev=14 next=0 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=14
+SURVIVOR_NATIVE_DONE rank=5 collective=allreduce local_result=0 prev=4 next=6 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=4
+SURVIVOR_NATIVE_DONE rank=11 collective=allreduce local_result=0 prev=10 next=12 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=10
+SURVIVOR_NATIVE_DONE rank=14 collective=allreduce local_result=0 prev=13 next=15 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=13
+SURVIVOR_NATIVE_DONE rank=2 collective=allreduce local_result=0 prev=1 next=4 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=2
+SURVIVOR_NATIVE_DONE rank=12 collective=allreduce local_result=0 prev=11 next=13 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=11
+SURVIVOR_NATIVE_DONE rank=6 collective=allreduce local_result=0 prev=5 next=7 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=5
+SURVIVOR_NATIVE_DONE rank=1 collective=allreduce local_result=0 prev=0 next=2 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=1
+SURVIVOR_NATIVE_DONE rank=0 collective=allreduce local_result=0 prev=15 next=1 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=0
+SURVIVOR_NATIVE_DONE rank=9 collective=allreduce local_result=0 prev=8 next=10 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=8
+SURVIVOR_NATIVE_DONE rank=7 collective=allreduce local_result=0 prev=6 next=8 failed_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=6
+
+h15r3n15:1275753:1278289 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275753:1278289 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 4, res=3, closed=0
+
+h15r3n15:1275753:1278289 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 4] Failed to execute operation Close from rank 4, retcode 3
+
+h15r3n15:1275758:1278287 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275758:1278287 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 5, res=3, closed=0
+
+h15r3n15:1275758:1278287 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 5] Failed to execute operation Close from rank 5, retcode 3
+
+h15r3n15:1275747:1278292 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275747:1278292 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 2, res=3, closed=0
+
+h15r3n15:1275747:1278292 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 2] Failed to execute operation Close from rank 2, retcode 3
+
+h15r3n16:1121650:1124193 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121650:1124193 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 2, res=3, closed=0
+
+h15r3n16:1121650:1124193 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 10] Failed to execute operation Close from rank 10, retcode 3
+
+h15r3n15:1275765:1278286 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275765:1278286 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 6, res=3, closed=0
+
+h15r3n15:1275765:1278286 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 6] Failed to execute operation Close from rank 6, retcode 3
+
+h15r3n16:1121663:1124189 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121663:1124189 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 5, res=3, closed=0
+
+h15r3n16:1121663:1124189 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 13] Failed to execute operation Close from rank 13, retcode 3
+
+h15r3n16:1121646:1124192 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121646:1124192 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 0, res=3, closed=0
+
+h15r3n16:1121646:1124192 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 8] Failed to execute operation Close from rank 8, retcode 3
+
+h15r3n15:1275746:1278296 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275746:1278296 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 1, res=3, closed=0
+
+h15r3n15:1275746:1278296 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 1] Failed to execute operation Close from rank 1, retcode 3
+
+h15r3n16:1121682:1124197 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121682:1124197 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 7, res=3, closed=0
+
+h15r3n16:1121682:1124197 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 15] Failed to execute operation Close from rank 15, retcode 3
+
+h15r3n15:1275745:1278285 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275745:1278285 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 0, res=3, closed=0
+
+h15r3n15:1275745:1278285 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 0] Failed to execute operation Close from rank 0, retcode 3
+
+h15r3n15:1275773:1278291 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1275773:1278291 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 7, res=3, closed=0
+
+h15r3n15:1275773:1278291 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 7] Failed to execute operation Close from rank 7, retcode 3
+
+h15r3n16:1121652:1124188 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121652:1124188 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 3, res=3, closed=0
+
+h15r3n16:1121652:1124188 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 11] Failed to execute operation Close from rank 11, retcode 3
+
+h15r3n16:1121672:1124186 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121672:1124186 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 6, res=3, closed=0
+
+h15r3n16:1121672:1124186 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 14] Failed to execute operation Close from rank 14, retcode 3
+
+h15r3n16:1121658:1124187 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121658:1124187 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 4, res=3, closed=0
+
+h15r3n16:1121658:1124187 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 12] Failed to execute operation Close from rank 12, retcode 3
+
+h15r3n16:1121647:1124195 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1121647:1124195 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 1, res=3, closed=0
+
+h15r3n16:1121647:1124195 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 9] Failed to execute operation Close from rank 9, retcode 3
+RESULT_FRAGMENT rank=0 collective=allreduce mode=bypass result=LOCAL_PASS participants=15 kill_rank=3 root_parent=0 root_survivor=0 iters=5 count=1024

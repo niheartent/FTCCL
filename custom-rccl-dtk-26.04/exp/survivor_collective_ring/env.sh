@@ -1,0 +1,35 @@
+export FTCCl_ROOT=/public/home/scnethpc26107/sdr/ftccl
+export FTCCl_RCCL_HOME=${FTCCl_ROOT}/custom-rccl-dtk-26.04/build
+export FTCCl_RCCL_INCLUDE=${FTCCl_RCCL_HOME}/include
+export FTCCl_RCCL_LIB=${FTCCl_RCCL_HOME}
+export LD_LIBRARY_PATH=${FTCCl_RCCL_LIB}:${LD_LIBRARY_PATH:-}
+
+export PYTHONWARNINGS=ignore
+export GLOG_minloglevel=3
+export CUDA_DEVICE_MAX_CONNECTIONS=1
+export HSA_FORCE_FINE_GRAIN_PCIE=1
+export OMP_NUM_THREADS=1
+
+export NCCL_ALGO=Ring
+export NCCL_PROTO=SIMPLE
+export NCCL_DEBUG=WARN
+export NCCL_DEBUG_SUBSYS=INIT,ENV,NET
+export NCCL_MAX_NCHANNELS=32
+export NCCL_MIN_NCHANNELS=32
+export NCCL_COLLNET_ENABLE=0
+export NCCL_CCLD_ENABLE=1
+
+export NCCL_NET_GDR_LEVEL=4
+export NCCL_NET_GDR_READ=1
+export RCCL_SDMA_COPY_ENABLE=0
+export NCCL_IB_HCA=shca_0:1,shca_1:1,shca_2:1,shca_3:1
+export NCCL_PXN_DISABLE=0
+export RCCL_PXN_GPU_BALANCE=1
+export NCCL_PLUGIN_P2P=ib
+export NCCL_SOCKET_IFNAME=eno1
+export SHCA_DEBUG_MASK=0
+export SHCA_CMR_LOG_LEVEL=1
+export NCCL_NET_PLUGIN=shca
+export UCX_IB_NUM_PATHS=1
+export C10D_USE_IPV6=0
+export C10D_SOCKET_IFNAME=eno1

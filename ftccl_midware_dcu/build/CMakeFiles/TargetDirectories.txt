@@ -1,0 +1,4 @@
+/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/ftccl_midware.dir
+/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/ftccl_allreduce_smoke.dir
+/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/edit_cache.dir
+/public/home/scnethpc26107/sdr/ftccl/ftccl_midware_dcu/build/CMakeFiles/rebuild_cache.dir

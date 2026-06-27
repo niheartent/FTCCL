@@ -1,0 +1,38 @@
+RCCL version : 2.22.3-master:07a3100
+HIP version  : 6.3.26113-6699a1f0
+ROCm version : 6.3.3.0-0-c1d64df
+Hostname     : h15r3n15
+Librccl path : /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/librccl.so.1
+PARENT_SETUP rank=15 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=14 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=13 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=12 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=11 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=9 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=8 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=10 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=7 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=4 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=6 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=1 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=5 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=0 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=3 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+PARENT_SETUP rank=2 nranks=16 collective=allreduce kill_rank=0 root_rank=1
+FAILED_RANK_SIGKILL rank=0 before_prepare=1
+SURVIVOR_NATIVE_PREPARE rank=2 collective=allreduce survivor_index=1 prev=1 next=3 survivor_count=15 root_parent=1 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=5 collective=allreduce survivor_index=4 prev=4 next=6 survivor_count=15 root_parent=1 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=3 collective=allreduce survivor_index=2 prev=2 next=4 survivor_count=15 root_parent=1 root_survivor=0 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=4 collective=allreduce survivor_index=3 prev=3 next=5 survivor_count=15 root_parent=1 root_survivor=0 after_kill=1
+rank 15 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 14 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 13 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 9 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 8 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 11 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 10 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 12 timed out waiting for /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/bypass_matrix_16gpu_ccld/allreduce_kill0/sync/killed.0
+rank 2 timed out waiting for prepare files
+rank 5 timed out waiting for prepare files
+rank 3 timed out waiting for prepare files
+rank 4 timed out waiting for prepare files

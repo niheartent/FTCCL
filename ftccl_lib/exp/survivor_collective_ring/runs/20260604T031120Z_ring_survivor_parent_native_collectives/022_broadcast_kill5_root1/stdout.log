@@ -1,0 +1,31 @@
+PARENT_SETUP rank=7 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=1 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=5 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=6 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=4 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=3 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=0 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+PARENT_SETUP rank=2 nranks=8 collective=broadcast kill_rank=5 root_rank=1
+FAILED_RANK_SIGKILL rank=5 before_prepare=1
+SURVIVOR_NATIVE_PREPARE rank=2 collective=broadcast survivor_index=2 prev=1 next=3 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=1 collective=broadcast survivor_index=1 prev=0 next=2 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=0 collective=broadcast survivor_index=0 prev=7 next=1 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=7 collective=broadcast survivor_index=6 prev=6 next=0 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=3 collective=broadcast survivor_index=3 prev=2 next=4 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=6 collective=broadcast survivor_index=5 prev=4 next=7 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_PREPARE rank=4 collective=broadcast survivor_index=4 prev=3 next=6 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=6 collective=broadcast survivor_index=5 prev=4 next=7 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=4 collective=broadcast survivor_index=4 prev=3 next=6 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=2 collective=broadcast survivor_index=2 prev=1 next=3 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=1 collective=broadcast survivor_index=1 prev=0 next=2 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=0 collective=broadcast survivor_index=0 prev=7 next=1 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=7 collective=broadcast survivor_index=6 prev=6 next=0 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_ACTIVATE rank=3 collective=broadcast survivor_index=3 prev=2 next=4 survivor_count=7 root_parent=1 root_survivor=1 after_kill=1
+SURVIVOR_NATIVE_DONE rank=1 collective=broadcast local_result=0 prev=0 next=2 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=1
+SURVIVOR_NATIVE_DONE rank=3 collective=broadcast local_result=0 prev=2 next=4 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=3
+SURVIVOR_NATIVE_DONE rank=2 collective=broadcast local_result=0 prev=1 next=3 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=2
+SURVIVOR_NATIVE_DONE rank=4 collective=broadcast local_result=0 prev=3 next=6 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=4
+SURVIVOR_NATIVE_DONE rank=6 collective=broadcast local_result=0 prev=4 next=7 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=5
+SURVIVOR_NATIVE_DONE rank=7 collective=broadcast local_result=0 prev=6 next=0 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=6
+SURVIVOR_NATIVE_DONE rank=0 collective=broadcast local_result=0 prev=7 next=1 failed_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024 survivor_index=0
+RESULT_FRAGMENT rank=0 collective=broadcast result=LOCAL_PASS survivors=7 kill_rank=5 root_parent=1 root_survivor=1 iters=5 count=1024

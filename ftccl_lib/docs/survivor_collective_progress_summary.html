@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FCCL Survivor Collective - 当前能力与进展</title>
+  <style>
+    :root {
+      --ink: #18232b;
+      --muted: #576772;
+      --line: #dbe2e6;
+      --panel: #ffffff;
+      --page: #f5f7f8;
+      --brand: #116466;
+      --brand-soft: #e5f2f0;
+      --pass: #19713c;
+      --pass-bg: #e8f5ec;
+      --warn: #985c00;
+      --warn-bg: #fff3dc;
+      --off: #6a7379;
+      --off-bg: #eff2f3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--page);
+      font: 14px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+    header {
+      background: #123538;
+      color: #fff;
+      padding: 32px 0 26px;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+    .meta { color: #b9d4d1; font-size: 13px; margin-bottom: 8px; }
+    h1 { font-size: 29px; line-height: 1.25; margin: 0 0 10px; font-weight: 650; }
+    header p { color: #e2eded; max-width: 760px; margin: 0; font-size: 15px; }
+    main { padding: 20px 0 36px; }
+    .notice {
+      border: 1px solid #edca8e;
+      border-left: 4px solid var(--warn);
+      background: var(--warn-bg);
+      padding: 12px 15px;
+      margin: 0 0 18px;
+      border-radius: 4px;
+    }
+    .notice strong { display: inline-block; margin-right: 8px; }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 19px 20px;
+      margin-bottom: 16px;
+    }
+    h2 { margin: 0 0 13px; font-size: 18px; font-weight: 650; }
+    h3 { margin: 0 0 6px; font-size: 14px; font-weight: 650; }
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+    code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      background: #f0f3f4;
+      border-radius: 3px;
+      padding: 1px 4px;
+      font-size: 12.5px;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 13px 14px;
+    }
+    .metric .value { font-size: 25px; line-height: 1.1; color: var(--brand); font-weight: 650; }
+    .metric .label { color: var(--muted); font-size: 12px; margin-top: 5px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      padding: 10px 9px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-size: 12px; font-weight: 600; background: #fafbfb; }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 8px;
+      white-space: nowrap;
+    }
+    .pass { color: var(--pass); background: var(--pass-bg); }
+    .partial { color: var(--warn); background: var(--warn-bg); }
+    .off { color: var(--off); background: var(--off-bg); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 12px 13px;
+    }
+    .item p { color: var(--muted); }
+    .timeline { display: grid; gap: 11px; }
+    .event {
+      border-left: 3px solid #c9d8d9;
+      padding-left: 13px;
+    }
+    .event b { display: inline-block; min-width: 90px; color: var(--brand); }
+    ul {
+      margin: 0;
+      padding-left: 19px;
+      color: var(--muted);
+    }
+    li { margin: 5px 0; }
+    .sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .source {
+      border: 1px solid var(--line);
+      background: #fafbfb;
+      border-radius: 4px;
+      padding: 5px 8px;
+      color: #34444d;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+    }
+    footer { color: var(--muted); font-size: 12px; padding-top: 4px; }
+    @media (max-width: 760px) {
+      .wrap { padding: 0 14px; }
+      header { padding: 25px 0 20px; }
+      h1 { font-size: 23px; }
+      .summary, .grid { grid-template-columns: 1fr; }
+      section { padding: 15px 13px; overflow-x: auto; }
+      th, td { padding: 8px 6px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="meta">FCCL 实验分支 / Survivor Collective / 当前源码摘要</div>
+      <h1>故障后复用 parent communicator 的集合通信进展</h1>
+      <p>一个 rank 退出后，survivor ranks 在原 communicator 上重建拓扑视图并继续调用原生 NCCL collective。本文只保留当前仍在源码中的能力和已完成验证。</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="notice">
+      <strong>状态更正</strong>
+      与基线提交 <code>1c4e4a8b6b385087c08485df75fddd4397c4d1a5</code> 相比，当前保留的是
+      survivor 两阶段 API 与 <code>RING</code> 子拓扑切换。工作树已移除 survivor
+      <code>TREE</code> 建链、激活和新增 kernel 放行逻辑；历史 TREE 日志不代表当前可用能力。
+    </div>
+
+    <div class="summary">
+      <div class="metric"><div class="value">5</div><div class="label">Ring survivor 已验证 collective</div></div>
+      <div class="metric"><div class="value">0</div><div class="label">当前 Survivor Tree 路径</div></div>
+      <div class="metric"><div class="value">36/36</div><div class="label">Ring 完整矩阵通过</div></div>
+      <div class="metric"><div class="value">1</div><div class="label">Survivor 拓扑：RING</div></div>
+    </div>
+
+    <section>
+      <h2>当前能力矩阵</h2>
+      <table>
+        <thead>
+          <tr><th>拓扑</th><th>Collective</th><th>当前状态</th><th>证据与边界</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>RING + SIMPLE</code></td>
+            <td>AllReduce / ReduceScatter / AllGather / Broadcast / Reduce</td>
+            <td><span class="tag pass">已验证</span></td>
+            <td>故障后在原 communicator 上调用；2026-05-26 的 <code>np=4</code> 矩阵覆盖每个失败 rank 以及所有存活 root，<code>36/36</code> 通过。</td>
+          </tr>
+          <tr>
+            <td><code>TREE + SIMPLE</code></td>
+            <td>AllReduce / Broadcast / Reduce</td>
+            <td><span class="tag off">已撤回</span></td>
+            <td><code>ncclCommPrepareSurvivorTopo()</code> 与 <code>ncclCommActivateSurvivorTopo()</code> 不再建立或发布 survivor Tree；旧测试结果仅对应已移除代码。</td>
+          </tr>
+          <tr>
+            <td><code>PAT / NVLS / CollNet</code></td>
+            <td>任意 survivor collective</td>
+            <td><span class="tag off">未支持</span></td>
+            <td>当前恢复入口只初始化 <code>NCCL_ALGO_RING</code> 的 survivor transport。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>实现落点</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>统一恢复入口</h3>
+          <p><code>ncclCommPrepareSurvivorTopo()</code> 在 parent rank 空间内连接 survivor Ring 邻居；<code>ncclCommActivateSurvivorTopo()</code> 再切换旧 communicator 的 Ring 执行视图。</p>
+        </div>
+        <div class="item">
+          <h3>双 rank 空间</h3>
+          <p>transport 邻接仍使用 parent rank；设备执行视图更新为 survivor index，包括 <code>devComm-&gt;nRanks</code>、<code>devComm-&gt;rank</code> 和 <code>ring.userRanks</code>。</p>
+        </div>
+        <div class="item">
+          <h3>Root 参数转换</h3>
+          <p>实验程序对 <code>Broadcast</code> 与 <code>Reduce</code> 将用户指定的 parent root 转为 survivor index 后调用原生 API，验证任意存活 root 的 Ring 语义。</p>
+        </div>
+        <div class="item">
+          <h3>实验驱动范围</h3>
+          <p><code>run_collective_matrix.sh</code> 当前只接受 <code>--algo ring</code>，并用单个 <code>SIGKILL</code> 故障覆盖五种集合通信及 root 组合。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>验证进展</h2>
+      <div class="timeline">
+        <div class="event">
+          <b>Ring 基线</b>
+          解决 <code>ring.userRanks</code> 与 device-side rank 映射后，五个原生 Ring collective 的 kill/root 边界矩阵通过。
+        </div>
+        <div class="event">
+          <b>当前删减</b>
+          相比含 Tree 实验的中间工作版本，当前已删除 Tree transport 连接、Tree device 状态发布以及新增 Broadcast/Reduce Tree kernel。
+        </div>
+        <div class="event">
+          <b>验证依据</b>
+          2026-05-26 的 Ring 矩阵在 <code>np=4</code> 下执行 36 个 case：四个失败 rank、五种 collective，以及 Broadcast/Reduce 的全部存活 root 组合均通过。
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>仍需说明的边界</h2>
+      <ul>
+        <li>实验验证模型是 parent communicator 中单个 rank 被终止后，由全部 survivor 继续执行；API 对任意 survivor 列表的接受不等于相关组合已通过验证。</li>
+        <li>当前明确验证基线为 <code>NCCL_PROTO=SIMPLE</code>，未将 LL / LL128 纳入结论。</li>
+        <li>Survivor 恢复仅对外主张 Ring；任何 Tree、PAT、NVLS 或 CollNet 路径均不属于当前能力。</li>
+        <li><code>PASS_FORCE_CLEANUP</code> 表示 survivor 已正确完成后，脚本主动清理仍阻塞的 launcher 进程组。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>代码与记录入口</h2>
+      <div class="sources">
+        <span class="source">src/nccl.h.in</span>
+        <span class="source">src/init.cc</span>
+        <span class="source">src/device/generate.py</span>
+        <span class="source">src/graph/tuning.cc</span>
+        <span class="source">exp/survivor_collective_ring/src/survivor_collective_after_kill.cu</span>
+        <span class="source">exp/survivor_collective_ring/scripts/run_collective_matrix.sh</span>
+        <span class="source">exp/survivor_collective_ring/runs/20260526T154124Z_survivor_parent_native_collectives/summary.tsv</span>
+      </div>
+    </section>
+    <footer>摘要依据 2026-05-27 当前工作区源码与 2026-05-26 Ring 实验记录整理；当代码能力与历史记录冲突时，以当前源码为准。</footer>
+  </main>
+</body>
+</html>

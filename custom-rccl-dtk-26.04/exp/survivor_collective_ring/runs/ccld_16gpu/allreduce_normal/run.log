@@ -1,0 +1,166 @@
+RCCL version : 2.22.3-master:07a3100
+HIP version  : 6.3.26113-6699a1f0
+ROCm version : 6.3.3.0-0-c1d64df
+Hostname     : h15r3n15
+Librccl path : /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/librccl.so.1
+PARENT_SETUP rank=9 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=15 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=13 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=14 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=11 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=10 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=8 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=12 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=3 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=2 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=1 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=4 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=5 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=7 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=0 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+PARENT_SETUP rank=6 nranks=16 collective=allreduce mode=normal kill_rank=3 root_rank=0
+NORMAL_NATIVE_START rank=15 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=2 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=7 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=5 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=9 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=3 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=14 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=0 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=12 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=6 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=4 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=1 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=13 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=11 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=10 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_START rank=8 collective=allreduce nranks=16 root_rank=0
+NORMAL_NATIVE_DONE rank=0 collective=allreduce local_result=0 prev=15 next=1 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=0
+NORMAL_NATIVE_DONE rank=12 collective=allreduce local_result=0 prev=11 next=13 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=12
+NORMAL_NATIVE_DONE rank=6 collective=allreduce local_result=0 prev=5 next=7 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=6
+NORMAL_NATIVE_DONE rank=4 collective=allreduce local_result=0 prev=3 next=5 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=4
+NORMAL_NATIVE_DONE rank=1 collective=allreduce local_result=0 prev=0 next=2 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=1
+NORMAL_NATIVE_DONE rank=13 collective=allreduce local_result=0 prev=12 next=14 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=13
+NORMAL_NATIVE_DONE rank=11 collective=allreduce local_result=0 prev=10 next=12 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=11
+NORMAL_NATIVE_DONE rank=10 collective=allreduce local_result=0 prev=9 next=11 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=10
+NORMAL_NATIVE_DONE rank=8 collective=allreduce local_result=0 prev=7 next=9 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=8
+NORMAL_NATIVE_DONE rank=15 collective=allreduce local_result=0 prev=14 next=0 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=15
+NORMAL_NATIVE_DONE rank=9 collective=allreduce local_result=0 prev=8 next=10 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=9
+NORMAL_NATIVE_DONE rank=7 collective=allreduce local_result=0 prev=6 next=8 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=7
+NORMAL_NATIVE_DONE rank=2 collective=allreduce local_result=0 prev=1 next=3 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=2
+NORMAL_NATIVE_DONE rank=5 collective=allreduce local_result=0 prev=4 next=6 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=5
+NORMAL_NATIVE_DONE rank=3 collective=allreduce local_result=0 prev=2 next=4 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=3
+NORMAL_NATIVE_DONE rank=14 collective=allreduce local_result=0 prev=13 next=15 failed_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024 survivor_index=14
+CCLD_DUMP rank=4 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank4.h15r3n15.1260395.tsv nonzero=22856563101478 channels=32
+
+h15r3n15:1260395:1263693 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260395:1263693 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 4, res=3, closed=0
+
+h15r3n15:1260395:1263693 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 4] Failed to execute operation Close from rank 4, retcode 3
+CCLD_DUMP rank=0 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank0.h15r3n15.1260387.tsv nonzero=22856637947016 channels=32
+CCLD_DUMP rank=12 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank12.h15r3n16.1106129.tsv nonzero=22856526344376 channels=32
+
+h15r3n15:1260387:1263684 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260387:1263684 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 0, res=3, closed=0
+
+h15r3n15:1260387:1263684 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 0] Failed to execute operation Close from rank 0, retcode 3
+
+h15r3n16:1106129:1109406 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106129:1109406 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 4, res=3, closed=0
+
+h15r3n16:1106129:1109406 [4] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 12] Failed to execute operation Close from rank 12, retcode 3
+CCLD_DUMP rank=13 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank13.h15r3n16.1106135.tsv nonzero=22856526170578 channels=32
+
+h15r3n16:1106135:1109410 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106135:1109410 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 5, res=3, closed=0
+
+h15r3n16:1106135:1109410 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 13] Failed to execute operation Close from rank 13, retcode 3
+CCLD_DUMP rank=6 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank6.h15r3n15.1260407.tsv nonzero=22856566013664 channels=32
+
+h15r3n15:1260407:1263685 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260407:1263685 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 6, res=3, closed=0
+
+h15r3n15:1260407:1263685 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 6] Failed to execute operation Close from rank 6, retcode 3
+CCLD_DUMP rank=1 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank1.h15r3n15.1260388.tsv nonzero=22856642936230 channels=32
+
+h15r3n15:1260388:1263689 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260388:1263689 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 1, res=3, closed=0
+
+h15r3n15:1260388:1263689 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 1] Failed to execute operation Close from rank 1, retcode 3
+CCLD_DUMP rank=11 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank11.h15r3n16.1106123.tsv nonzero=22856603982794 channels=32
+
+h15r3n16:1106123:1109414 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106123:1109414 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 3, res=3, closed=0
+
+h15r3n16:1106123:1109414 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 11] Failed to execute operation Close from rank 11, retcode 3
+CCLD_DUMP rank=10 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank10.h15r3n16.1106120.tsv nonzero=22856593915668 channels=32
+
+h15r3n16:1106120:1109407 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106120:1109407 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 2, res=3, closed=0
+
+h15r3n16:1106120:1109407 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 10] Failed to execute operation Close from rank 10, retcode 3
+CCLD_DUMP rank=7 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank7.h15r3n15.1260414.tsv nonzero=22856568817613 channels=32
+
+h15r3n15:1260414:1263686 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260414:1263686 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 7, res=3, closed=0
+
+h15r3n15:1260414:1263686 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 7] Failed to execute operation Close from rank 7, retcode 3
+CCLD_DUMP rank=8 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank8.h15r3n16.1106117.tsv nonzero=22856607283877 channels=32
+
+h15r3n16:1106117:1109412 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106117:1109412 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 0, res=3, closed=0
+
+h15r3n16:1106117:1109412 [0] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 8] Failed to execute operation Close from rank 8, retcode 3
+CCLD_DUMP rank=2 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank2.h15r3n15.1260389.tsv nonzero=22856631244755 channels=32
+
+h15r3n15:1260389:1263687 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260389:1263687 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 2, res=3, closed=0
+
+h15r3n15:1260389:1263687 [2] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 2] Failed to execute operation Close from rank 2, retcode 3
+CCLD_DUMP rank=5 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank5.h15r3n15.1260400.tsv nonzero=22856566361572 channels=32
+CCLD_DUMP rank=15 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank15.h15r3n16.1106151.tsv nonzero=22856527482605 channels=32
+
+h15r3n15:1260400:1263690 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260400:1263690 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 5, res=3, closed=0
+
+h15r3n15:1260400:1263690 [5] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 5] Failed to execute operation Close from rank 5, retcode 3
+
+h15r3n16:1106151:1109408 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106151:1109408 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 7, res=3, closed=0
+
+h15r3n16:1106151:1109408 [7] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 15] Failed to execute operation Close from rank 15, retcode 3
+CCLD_DUMP rank=9 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank9.h15r3n16.1106118.tsv nonzero=22856603029098 channels=32
+
+h15r3n16:1106118:1109409 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106118:1109409 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 1, res=3, closed=0
+
+h15r3n16:1106118:1109409 [1] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 9] Failed to execute operation Close from rank 9, retcode 3
+CCLD_DUMP rank=14 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank14.h15r3n16.1106143.tsv nonzero=22856536175126 channels=32
+CCLD_DUMP rank=3 path=/public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/exp/survivor_collective_ring/runs/ccld_16gpu/allreduce_normal/ccld/ccld.rank3.h15r3n15.1260392.tsv nonzero=22856642078479 channels=32
+
+h15r3n16:1106143:1109405 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n16:1106143:1109405 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 6, res=3, closed=0
+
+h15r3n16:1106143:1109405 [6] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 14] Failed to execute operation Close from rank 14, retcode 3
+
+h15r3n15:1260392:1263691 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1488 NCCL WARN [Service thread] Accept failed Resource temporarily unavailable
+
+h15r3n15:1260392:1263691 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1527 NCCL WARN [Service thread] Could not receive type from localRank 3, res=3, closed=0
+
+h15r3n15:1260392:1263691 [3] /public/home/scnethpc26107/sdr/ftccl/custom-rccl-dtk-26.04/build/hipify/src/proxy.cc:1551 NCCL WARN [Proxy Service 3] Failed to execute operation Close from rank 3, retcode 3
+RESULT_FRAGMENT rank=0 collective=allreduce mode=normal result=LOCAL_PASS participants=16 kill_rank=-1 root_parent=0 root_survivor=0 iters=5 count=1024
